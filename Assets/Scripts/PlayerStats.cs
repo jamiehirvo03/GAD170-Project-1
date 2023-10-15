@@ -48,10 +48,12 @@ public class PlayerStats : MonoBehaviour
             LevelledUp();
         }
 
-        if (Input.GetKeyDown("g"))
-        {
-            Debug.Log("Input script is working!");
-        }
+        // an If statement that was used to test if input was working
+        
+        // if (Input.GetKeyDown("g"))
+        // {
+        //  Debug.Log("Input script is working!");
+        // }
     }
    
     // Function that adds a random amount of experience points to player stats
